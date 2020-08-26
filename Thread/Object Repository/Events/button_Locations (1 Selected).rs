@@ -1,92 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_QA Landing Page Tite</name>
+   <name>button_Locations (1 Selected)</name>
    <tag></tag>
-   <elementGuidId>e4221b2b-f84b-4aad-bdeb-ed8441950d29</elementGuidId>
+   <elementGuidId>803ef214-74af-423f-b0ad-6f910a52ba52</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'QA Landing Page Tite')]</value>
+         <value>//button[@id='filter-select-bar__group-button__locations']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#filter-select-bar__group-button__locations</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/qa-automated-testing-folder/qa-landing-page</value>
+      <value>filter-select-bar__group-button__locations</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>QA Landing Page Tite</value>
+      <value>Locations (1 Selected)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;js-page-content-wrapper&quot;]/main[@class=&quot;main-content&quot;]/div[1]/section[@class=&quot;container container--30-70&quot;]/div[@class=&quot;container__col container__col--70 container__col--right container__col--priority&quot;]/div[@class=&quot;container__inner&quot;]/div[@class=&quot;search__results-mount js-search-results&quot;]/section[@class=&quot;search-results&quot;]/div[@class=&quot;search-results__item-wrapper&quot;]/div[@class=&quot;search-results__items&quot;]/article[@class=&quot;list-item is-right is-visible&quot;]/div[@class=&quot;list-item__content&quot;]/header[@class=&quot;list-item__header&quot;]/h3[@class=&quot;list-item__title&quot;]/a[1]</value>
+      <value>id(&quot;filter-select-bar__group-button__locations&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[contains(text(),'QA Landing Page Tite')]</value>
+      <value>//button[@id='filter-select-bar__group-button__locations']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='filter-dynamic-listing-25DB64A9CED7440AB54E3DC089A571B2']/section/ul/li[3]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Content'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topics'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Type'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Nicole O', &quot;'&quot;, 'Keefe')])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='QA Landing Page Tite']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/qa-automated-testing-folder/qa-landing-page')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tour'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h3/a</value>
+      <value>//li[3]/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -20,34 +20,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://dev.graybox.velir.com/qa-automated-testing-folder/qa-search-page?contentType=Region&q=qa+landing+page&sortBy=relevance&sortOrder=asc&page=1&daterange')
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/section_HomeSearch            Search       _b51e11'))
+WebUI.click(findTestObject('Page_Search  Thread Travel/section_HomeSearch            Search       _b51e11'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/input_Search_site-search'), 
+WebUI.setText(findTestObject('Page_Search  Thread Travel/input_Search_site-search (1)'), 
     'Landing Page')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/input_Search_site-search'), 
+WebUI.sendKeys(findTestObject('Page_Search  Thread Travel/input_Search_site-search (1)'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/div_HomeSearch            Search          S_83a32a'))
+WebUI.click(findTestObject('Page_Search  Thread Travel/div_HomeSearch            Search          S_83a32a'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/input_Search_site-search'), 
+WebUI.setText(findTestObject('Page_Search  Thread Travel/input_Search_site-search (1)'), 
     'Page')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/input_Search_site-search'), 
+WebUI.sendKeys(findTestObject('Page_Search  Thread Travel/input_Search_site-search (1)'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/input_Search_site-search'))
+WebUI.click(findTestObject('Page_Search  Thread Travel/input_Search_site-search (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/input_Search_site-search'), 
+WebUI.setText(findTestObject('Page_Search  Thread Travel/input_Search_site-search (1)'), 
     '')
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/input_Clear_Region'))
+WebUI.click(findTestObject('Page_Search  Thread Travel/input_Clear_Region'))
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/button_Content Type'))
+WebUI.click(findTestObject('Page_Search  Thread Travel/button_Content Type'))
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/strong_80'))
+WebUI.click(findTestObject('Page_Search  Thread Travel/strong_80'))
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/strong_1 - 8'))
+WebUI.click(findTestObject('Page_Search  Thread Travel/strong_1 - 8'))
 
 WebUI.closeBrowser()
 

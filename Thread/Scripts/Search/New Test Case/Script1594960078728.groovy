@@ -24,19 +24,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://dev.graybox.velir.com/contact-us')
 
-WebUI.setText(findTestObject('Object Repository/Page_Search  Thread Travel/Contact Us/Page_Contact Us  Thread Travel/input_Name_fxbd1be240f-bef2-4b4a-9b62-f7691_6c6710'), 
+WebUI.setText(findTestObject('Contact Us/input_Name_fxbd1be240f-bef2-4b4a-9b62-f7691_6c6710'), 
     'Test Name')
 
-WebUI.setText(findTestObject('Object Repository/Page_Search  Thread Travel/Contact Us/Page_Contact Us  Thread Travel/input_Email Address_fxbd1be240f-bef2-4b4a-9_25b8f7'), 
+WebUI.setText(findTestObject('Contact Us/input_Email Address_fxbd1be240f-bef2-4b4a-9_25b8f7'), 
     'test@')
 
-WebUI.setText(findTestObject('Object Repository/Page_Search  Thread Travel/Contact Us/Page_Contact Us  Thread Travel/input_Subject_fxbd1be240f-bef2-4b4a-9b62-f7_f8362c'), 
+WebUI.setText(findTestObject('Contact Us/input_Subject_fxbd1be240f-bef2-4b4a-9b62-f7_f8362c'), 
     'Subject')
 
-WebUI.setText(findTestObject('Object Repository/Page_Search  Thread Travel/Contact Us/Page_Contact Us  Thread Travel/textarea_Message_fxbd1be240f-bef2-4b4a-9b62_6db607'), 
+WebUI.setText(findTestObject('Contact Us/textarea_Message_fxbd1be240f-bef2-4b4a-9b62_6db607'), 
     'Message')
 
-WebUI.click(findTestObject('Object Repository/Page_Search  Thread Travel/Contact Us/Page_Contact Us  Thread Travel/input_Message_fxbd1be240f-bef2-4b4a-9b62-f7_46fc09'))
+WebUI.click(findTestObject('Contact Us/input_Message_fxbd1be240f-bef2-4b4a-9b62-f7_46fc09'))
 
 WebUI.closeBrowser()
 

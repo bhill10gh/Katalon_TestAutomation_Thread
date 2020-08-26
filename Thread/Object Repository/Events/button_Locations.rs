@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Content Type</name>
+   <name>button_Locations</name>
    <tag></tag>
-   <elementGuidId>81345eaf-aca6-4c6e-8f02-61aa125bb1e4</elementGuidId>
+   <elementGuidId>4b179a8a-6c82-4965-a076-4cbbb034eb11</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#filter-select-bar__group-button__contentType</value>
+         <key>XPATH</key>
+         <value>//button[@id='filter-select-bar__group-button__locations']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='filter-select-bar__group-button__contentType']</value>
+         <key>CSS</key>
+         <value>#filter-select-bar__group-button__locations</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>filter-select-bar__group-button__contentType</value>
+      <value>filter-select-bar__group-button__locations</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,62 +56,55 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Content Type </value>
+      <value>Locations </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filter-select-bar__group-button__contentType&quot;)</value>
+      <value>id(&quot;filter-select-bar__group-button__locations&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='filter-select-bar__group-button__contentType']</value>
+      <value>//button[@id='filter-select-bar__group-button__locations']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='filter-dynamic-listing-25DB64A9CED7440AB54E3DC089A571B2']/section/ul/li/button</value>
+      <value>//div[@id='filter-dynamic-listing-25DB64A9CED7440AB54E3DC089A571B2']/section/ul/li[3]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by:'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topics'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse Events'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Type'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topics'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tour'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear All'])[1]/preceding::button[1]</value>
+      <value>//li[3]/button</value>
    </webElementXpaths>
 </WebElementEntity>

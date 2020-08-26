@@ -20,13 +20,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://dev.graybox.velir.com/qa-automated-testing-folder/qa-search-page')
 
-text = WebUI.getText(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/strong_80'))
+text = WebUI.getText(findTestObject('Page_Search  Thread Travel/strong_80'))
 
 println ("text = " + text)
 
 //WebUI.navigateToUrl('http://dev.graybox.velir.com/qa-automated-testing-folder/qa-search-page?contentType=Region&q=qa+landing+page&sortBy=relevance&sortOrder=asc&page=1&daterange')
 
-text = WebUI.getText(findTestObject('Object Repository/Page_Search  Thread Travel/Page_Search  Thread Travel/strong_80'))
+text = WebUI.getText(findTestObject('Page_Search  Thread Travel/strong_80'))
 intVal = text.isInteger() ? text.toInteger() : null
 
 int upperSearchRange = 30
