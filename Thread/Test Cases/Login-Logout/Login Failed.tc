@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logging in</description>
+   <name>Login Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3a91f47-712e-46d2-a9f7-b97f7c107988</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Graybox_Home_Url</defaultValue>
+      <description></description>
+      <id>b1f3fa7a-87ae-48ff-9908-a74d05b6d593</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Username</defaultValue>
+      <description></description>
+      <id>e372e2c4-8370-4349-9193-a7329b2a4be5</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BadPassword</defaultValue>
+      <description></description>
+      <id>a8c2f3b9-581c-4059-937e-4f819120b0c3</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>33cf52d8-0c31-4caa-92d2-c4ba63be7b59</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

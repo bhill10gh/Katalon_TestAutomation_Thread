@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Local-Barry</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Graybox Home Url</description>
+      <initValue>'http://dev.graybox.velir.com/'</initValue>
+      <name>Graybox_Home_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'barry.hill@velir.com'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Encrypted &quot;Marsha01&quot;</description>
+      <initValue>'Ol/4yJSh8M5kTu+5BkT01A=='</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Encrypted Not &quot;Marsha01&quot;</description>
+      <initValue>'qugduK/AVOyUnxpt8ueqGg=='</initValue>
+      <name>BadPassword</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

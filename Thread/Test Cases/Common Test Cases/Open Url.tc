@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open Url</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45b9c05e-04a9-4d30-a63c-3c2f8708d54a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Graybox_Home_Url</defaultValue>
+      <description></description>
+      <id>d77dd06b-0b10-4667-b4c0-fa79f5e95de7</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>use</name>
+   <tag></tag>
+   <elementGuidId>6f722bb2-31dd-4e92-870b-4398ecf0e494</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>use</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xlink:href</name>
+      <type>Main</type>
+      <value>/assets/graybox-build/img/svg-sprite.svg#search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;js-page-content-wrapper&quot;]/main[@class=&quot;main-content&quot;]/div[1]/section[@class=&quot;container container--100&quot;]/div[@class=&quot;container__col container__col--100&quot;]/div[@class=&quot;search__query-mount js-search-query&quot;]/form[@class=&quot;search-box&quot;]/div[@class=&quot;search-box__input&quot;]/button[@class=&quot;search-box__button&quot;]/svg[@class=&quot;icon&quot;]/use[1]</value>
+   </webElementProperties>
+</WebElementEntity>
