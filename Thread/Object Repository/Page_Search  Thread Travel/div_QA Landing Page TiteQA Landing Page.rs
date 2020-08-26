@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_QA Landing Page TiteQA Landing Page Summary Add extra text to verify proper wrapping Will display in search resultby Nicole OKeefe</name>
+   <name>div_QA Landing Page TiteQA Landing Page</name>
    <tag></tag>
    <elementGuidId>084c114c-d477-4889-be31-de957bb9daeb</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
