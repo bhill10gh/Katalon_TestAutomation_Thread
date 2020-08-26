@@ -59,34 +59,35 @@ class EventFiltersRegionRemoveFilters {
 
 	@And("Remove Filters I select Content Type = Region")
 	def I_select_Content_Type_Equals_Region() {
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'), 200)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Content Type'), 200)
+		WebUI.click(findTestObject('Object Repository/Events/button_Content Type'))
 
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Region(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Region(1)')
 		WebUI.click(obj)
 
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'), -50)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Content Type'), -50)
+		WebUI.click(findTestObject('Object Repository/Events/button_Content Type'))
 	}
 
 	@When("Remove Filters I click into Content Type Filter")
 	def I_click_into_Content_Type_Filter() {
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Content Type'), -50)
+		WebUI.click(findTestObject('Object Repository/Events/button_Content Type'))
 	}
 
 	@And("Remove Filters I click on Clear All")
 	def I_click_on_Clear_All() {
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Clear All'))
+		WebUI.click(findTestObject('Object Repository/Events/button_Clear All (1)'))
 	}
 
 	@And("Remove Filters I collapse the Filter")
 	def I_collapse_the_Filter() {
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'))
+		WebUI.click(findTestObject('Object Repository/Events/button_Content Type'))
 	}
 
 	@Then("Remove Filters The Filter displays Content Type")
 	def The_Filter_displays_Content_Type() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type')
+		TestObject obj = findTestObject('Object Repository/Events/button_Content Type')
 		def text = WebUI.getText(obj)
 		WebUI.verifyMatch(text, "Content Type", false, FailureHandling.STOP_ON_FAILURE)
 

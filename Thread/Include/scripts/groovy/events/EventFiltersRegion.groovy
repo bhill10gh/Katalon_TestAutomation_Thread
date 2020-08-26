@@ -60,13 +60,13 @@ class EventFiltersRegion {
 	@When("I click into Content Type Filter")
 	def I_click_into_Content_Type_Filter() {
 		WebUI.delay(2)
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'), 200)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Content Type'), 200)
+		WebUI.click(findTestObject('Object Repository/Events/button_Content Type'))
 	}
 
 	@And("I view the number of results shown in the Content Type dropdown Region_1_Cnt")
 	def I_view_the_number_of_results_shown_in_the_Content_Type_dropdown_Region_1_Cnt() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Region(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Region(1)')
 		def text = WebUI.getText(obj)
 		println("text = " + text)
 		println("expected text = " + "Region (1)")
@@ -75,7 +75,7 @@ class EventFiltersRegion {
 
 	@And("I select Content Type = Region")
 	def I_select_Content_Type_Equals_Region() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Region(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Region(1)')
 		WebUI.click(obj)
 	}
 

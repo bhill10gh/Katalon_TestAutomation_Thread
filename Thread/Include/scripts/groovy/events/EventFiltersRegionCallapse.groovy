@@ -60,25 +60,25 @@ class EventFiltersRegionCallapse {
 	@When("Region Callapes I click into Content Type Filter")
 	def I_click_into_Content_Type_Filter() {
 		WebUI.delay(2)
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'), 200)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Content Type'), 200)
+		WebUI.click(findTestObject('Object Repository/Events/button_Content Type'))
 	}
 
 	@And("Region Callapes I select Content Type = Region")
 	def I_select_Content_Type_Equals_Region() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Region(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Region(1)')
 		WebUI.click(obj)
 	}
 
 	@And("Region Callapes I collapse the Filter")
 	def I_collapse_the_Filter () {
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'), -50)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Content Type'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Content Type'), -50)
+		WebUI.click(findTestObject('Object Repository/Events/button_Content Type'))
 	}
 
 	@Then("Region Callapes The number of results matches the count shown_1_Cnt")
 	def I_verify_the_status_in_step() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/span_Content Type (1 Selected)')
+		TestObject obj = findTestObject('Object Repository/Events/span_Content Type (1 Selected)')
 		def text = WebUI.getText(obj)
 		println("text = " + text)
 		println("expected text = " + "Content Type (1 Selected)")
@@ -86,7 +86,8 @@ class EventFiltersRegionCallapse {
 		if(!isGood) {
 			KeywordUtil.markFailed("Content Type Text is not correct.")
 
-			WebUI.closeBrowser()
+			
 		}
+		WebUI.closeBrowser()
 	}
 }

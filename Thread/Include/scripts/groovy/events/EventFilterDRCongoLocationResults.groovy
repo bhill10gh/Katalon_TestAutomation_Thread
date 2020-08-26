@@ -56,27 +56,28 @@ class EventFilterDRCongoLocationResults {
 
 		WebUI.maximizeWindow()
 	}
-	
+
 	@When("DR Congo Location Results I click into Location Filter")
 	def I_click_into_Location_Filter() {
 		WebUI.delay(2)
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Locations'), 200)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Locations'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Locations'), 200)
+		WebUI.click(findTestObject('Object Repository/Events/button_Locations'))
 	}
-	
+
 	@And("DR Congo Location Results I select Location = DR Congo")
 	def I_select_Location_Equals_DR_Congo() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_DR Congo(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_DR Congo(1)')
 		WebUI.click(obj)
 
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Locations'), -50)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Locations'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Locations'), -50)
+		WebUI.click(findTestObject('Object Repository/Events/button_Locations'))
+		WebUI.delay(2)
 	}
-	
+
 	@Then("DR Congo Location Results Have Location = DR Congo")
 	def I_verify_the_status_in_step() {
 		WebDriver driver = DriverFactory.getWebDriver()
-		List<WebElement> elements = driver.findElements(By.("list-item is-right is-visible"))
+		List<WebElement> elements = driver.findElements(By.xpath("//*[@class='list-item is-right is-visible']"))
 		println("Results Count = " + elements.size())
 
 		if(elements.size() != 1) {
@@ -85,6 +86,4 @@ class EventFilterDRCongoLocationResults {
 
 		WebUI.closeBrowser()
 	}
-	
-	
 }

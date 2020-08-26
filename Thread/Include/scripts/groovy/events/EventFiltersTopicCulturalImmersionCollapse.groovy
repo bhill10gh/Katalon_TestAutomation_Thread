@@ -60,25 +60,25 @@ class EventFiltersTopicCulturalImmersionCollapse {
 	@When("Cultural Immersion Collapse I click into Topic Filter")
 	def I_click_into_Topic_Filter() {
 		WebUI.delay(2)
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'), 200)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Topics'), 200)
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 	}
 
 	@And("Cultural Immersion Collapse I select Topic = Cultural Immersion")
 	def I_select_Topics_Equals_Cultural_Immersion() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Cultural Immersion(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Cultural Immersion(1)')
 		WebUI.click(obj)
 	}
 
 	@And("Cultural Immersion Collapse  I collapse the Filter")
 	def I_collapse_the_Filter () {
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'), -50)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Topics'), -50)
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 	}
 
 	@Then("Cultural Immersion Collapse The number of results matches the count shown_1_Cnt")
 	def I_verify_the_status_in_step() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics (1 Selected)')
+		TestObject obj = findTestObject('Object Repository/Events/button_Topics (1 Selected)')
 		def text = WebUI.getText(obj)
 		println("text = " + text)
 		println("expected text = " + "Topics (1 Selected)")

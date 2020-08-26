@@ -59,36 +59,35 @@ class EventFiltersTopicCulturalImmersionClear {
 
 	@And("Cultural Immersion Clear I select Topic = Cultural Immersion")
 	def I_select_Content_Type_Equals_Cultural_Immersion() {
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'), 200)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Topics'), 200)
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Cultural Immersion(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Cultural Immersion(1)')
 		WebUI.click(obj)
 
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'), -50)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Topics'), -50)
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 	}
-	
+
 	@When("Cultural Immersion Clear I click into Topic Filter")
 	def I_click_into_Topic_Filter() {
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 	}
-	
+
 	@And("Cultural Immersion Clear I click on Clear All")
 	def I_click_on_Clear_All() {
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Clear All'))
-		
+		WebUI.click(findTestObject('Object Repository/Events/button_Clear All'))
 	}
 
 	@And("Cultural Immersion Clear I collapse the Filter")
 	def I_collapse_the_Filter () {
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'), -50)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Topics'), -50)
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 	}
-	
+
 	@Then("Cultural Immersion Clear The Filter displays Topic")
 	def I_verify_the_status_in_step() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics')
+		TestObject obj = findTestObject('Object Repository/Events/button_Topics')
 		def text = WebUI.getText(obj)
 		println("text = " + text)
 		println("expected text = " + "Topics (1 Selected)")
@@ -99,7 +98,6 @@ class EventFiltersTopicCulturalImmersionClear {
 
 		WebUI.closeBrowser()
 	}
-
 }
 
 

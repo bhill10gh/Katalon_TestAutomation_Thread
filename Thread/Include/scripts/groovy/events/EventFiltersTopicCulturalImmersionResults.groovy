@@ -61,13 +61,13 @@ class EventFiltersTopicCulturalImmersionResults {
 	@When("Cultural Immersion Results I click into Topic Filter")
 	def I_click_into_Topic_Filter() {
 		WebUI.delay(2)
-		WebUI.scrollToElement(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'), 200)
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Events/button_Topics'), 200)
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 	}
 
 	@And("Cultural Immersion Results I view the number of results shown in the Topics_1_Cnt")
 	def I_view_the_number_of_results_shown_in_the_Topis_dropdown_1_Cnt() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Cultural Immersion(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Cultural Immersion(1)')
 		def text = WebUI.getText(obj)
 		println("text = " + text)
 		println("expected text = " + "Cultural Immersion(1)")
@@ -76,13 +76,13 @@ class EventFiltersTopicCulturalImmersionResults {
 
 	@And("Cultural Immersion Results I select Topic = Cultural Immersion")
 	def I_select_Topics_Equals_Cultural_Immersion() {
-		TestObject obj = findTestObject('Object Repository/Events/Page_Events  Thread Travel/label_Cultural Immersion(1)')
+		TestObject obj = findTestObject('Object Repository/Events/label_Cultural Immersion(1)')
 		WebUI.click(obj)
 	}
 
 	@Then("Cultural Immersion Results The number of results matches the count shown_1_Cnt")
 	def I_verify_the_status_in_step() {
-		WebUI.click(findTestObject('Object Repository/Events/Page_Events  Thread Travel/button_Topics'))
+		WebUI.click(findTestObject('Object Repository/Events/button_Topics'))
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> elements = driver.findElements(By.className("list-item is-right is-visible"))
 		println("Results Count = " + elements.size())
