@@ -16,14 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//newtext
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://dev.graybox.velir.com/events')
+WebUI.navigateToUrl('http://dev.graybox.velir.com/')
 
-WebUI.click(findTestObject('Page_Events  Thread Travel/button_Content Type'))
+WebUI.click(findTestObject('Object Repository/Page_Home  Thread Travel/button_Accept'))
 
-WebUI.click(findTestObject('Page_Events  Thread Travel/label_Region(1)'))
+WebUI.click(findTestObject('Object Repository/Page_Home  Thread Travel/a_Blog'))
 
-WebUI.click(findTestObject('Page_Events  Thread Travel/span_Content Type (1 Selected)'))
+WebUI.click(findTestObject('Object Repository/Page_Off the beaten path in Japan  Thread Travel/button_Tap to unmute_ytp-large-play-button _201a86'))
 
