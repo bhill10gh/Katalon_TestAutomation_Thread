@@ -16,3 +16,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 CucumberKW.runFeatureFile("Include/Batch 1 and 2/features/Events/Event Filters Region.feature")
+
+CucumberKW.runFeatureFile("Include/Batch 1 and 2/features/Events/Event Filters Region Cultural Immersion Results.feature")

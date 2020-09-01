@@ -85,8 +85,6 @@ class EventFiltersRegionCallapse {
 		def isGood = WebUI.verifyMatch(text, "Content Type (1 Selected)", false, FailureHandling.STOP_ON_FAILURE)
 		if(!isGood) {
 			KeywordUtil.markFailed("Content Type Text is not correct.")
-
-			
 		}
 		WebUI.closeBrowser()
 	}
