@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-//added comment 3
+//added comment 4
 WebUI.callTestCase(findTestCase('Login-Logout/Login Successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
